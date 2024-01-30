@@ -5,7 +5,7 @@ body {
 /* Barra de navegacion */
 
 .navbar {
-  padding: 2rem;
+  padding: 1rem;
   background-color: /*#f5f6f7*/#f8f1e9;
 }
 
@@ -24,13 +24,13 @@ section {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-family: 'Secular One', sans-serif;
 }
 
 .seccion-oscura {
   color: white; /*Texto*/
-  background-color: /*#1b1b32*/ #2e1e45; /*Color fondo*/
+  background-color: /*#1b1b32*/ #9c667d; /*Color fondo*/
 }
 
 .seccion-clara {
@@ -76,7 +76,7 @@ h1 {
 }
 
 .hero-principal {
-  padding: 3rem;
+  padding: 1rem;
 }
 
 .hero-imagen-desarrollador {
@@ -121,13 +121,13 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: /*#1b1b32*/ #2e1e45; /*Color hover*/
+  background-color: /*#1b1b32*/ #9c667d; /*Color hover*/
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: /*#7ade30*/ #ff695c;
-  background-color: #59248a;
+  color: /*#7ade30*/ #706160;
+  background-color: #ce938b;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -146,6 +146,11 @@ h1 {
 
 .badge {
   margin: 5px;
+}
+.badges-contenedor .text-bg-primary {
+  background-color: #3b5274 !important; /* Cambia a rojo (#ff0000) u otro color de tu elección */
+  color: white; /* Cambia el color del texto si es necesario */
+  /* Otros estilos para los elementos .badge.text-bg-primary */
 }
 
 /* Proyectos */
@@ -189,7 +194,7 @@ h1 {
 }
 
 .proyecto:hover img {
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 .proyecto:hover .overlay {
@@ -287,7 +292,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: /*rgb(13, 110, 253)*/#ac68c5/*#b0a0fc*/;
+  background-color: /*rgb(13, 110, 253)*/ #ce938b;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -364,6 +369,20 @@ footer {
 .iconos-redes-sociales i {
   color: white;
   font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+.linkedin-icon {
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 5px;
+  border: 2px solid rgb(59, 52, 52);;
+  border-radius: 50%;
   transition: all 0.2s ease-in;
 }
 
